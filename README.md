@@ -1,4 +1,4 @@
-#Rune Generator Project
+#Rune Generator Project#
 
 ###This was a JavaScript project through Codecademy's Full-Stack Engineer Course
 
