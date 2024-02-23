@@ -1,0 +1,241 @@
+/* Universal */
+
+html {
+    font-family: "New Zen";
+}
+
+h2, h3 { 
+    font-style: italic;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding-top: 2%;
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        content: url(./resources/images/highend-logo.jpg);
+        padding-top: 2%;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .logo {
+        content: url(./resources/images/he-logo.jpg);
+        padding-top: 2%;
+        padding-bottom: 20px;
+    }
+}
+
+.nav-links {
+    margin-top: 2.5%;
+}
+
+#login {
+    background-color: red;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+
+#instagram {
+    background-color: purple;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+
+#facebook {
+    background-color: blue;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+
+#twitter {
+    background-color: lightblue;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+
+#youtube {
+    background-color: red;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+
+#contact {
+    background-color: green;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+
+/* Banner */
+
+.banner {
+    display: flex;
+    height: 75vh;
+    width: 100%;
+    background-image: url(./resources/images/Mountain-Hiking.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#tag-line {
+    color: #655f5f;
+    font-family: "New Zen";
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 2%;
+}
+
+/* Continuum */
+
+.he-continuum {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    gap: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#be-healthy {
+    background-color: #05AFF2;
+    flex: 1;
+    border-radius: 5px;
+}
+
+#be-fit {
+    background-color: #F21D2F;
+    flex: 1;
+    border-radius: 5px;
+}
+
+#be-highend {
+    background-color: #A6059B;
+    flex: 1;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 425px) {
+    .he-continuum {
+        display: flex;
+        /*flex-wrap: wrap;*/
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #behealthy {
+        width: 75%;
+    }
+
+}
+
+/* Components */
+
+.components {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    gap: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#health {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+#nutrition {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+#fitness {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+#life {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+/* Services */
+
+.services {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    gap: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#therapy {
+    flex: 1;
+    border-radius: 5px;
+}
+
+#guide {
+    flex: 1;
+    border-radius: 5px;
+}
+
+#tools {
+    flex: 1;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 425px) {
+    .services {
+        display: flex;
+        /*flex-wrap: wrap;*/
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/* Footer */
+
+.footer {
+    display: flex;
+    background-color: #655f5f;
+    color: white;
+    padding: 20px;
+    
+}
+
+.footer-list {
+    list-style-type: none;
+}
